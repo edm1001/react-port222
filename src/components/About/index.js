@@ -8,7 +8,7 @@ function About() {
                 {/* <img src={solopic} alt="selfie" /> */}
             </div>
             <div className="flex-row">
-                <p>Hello I am a full stack developer based in Houston, Texas. I took the coding bootcamp offered in UT of Austin. I am motivated to work and would love to meet.<br></br>
+                <p>Hello I am a full stack developer based in Houston, Texas. I took the coding bootcamp offered in UT of Austin. I am growing as I learn and hope to meet those that think similarly.
                 </p>
             </div>
         </section>

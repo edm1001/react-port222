@@ -33,7 +33,7 @@ useEffect(() => {
                 {currentPage.name === 'Resume' && <Resume />}
                 {currentPage.name === 'Contact' && <Contact />}
              <Portfolio/>
-             
+             <Contact />
             </main>
             <Footer />
         </div>
