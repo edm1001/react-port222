@@ -7,20 +7,20 @@ function Nav(props) {
 //create nav bar for your stuff
   return (
     <header className="flex-row">
-      <h1> Edmer Valencia</h1>
+      <h1> <a href="/">Edmer Valencia</a></h1>
       <nav>
         <ul className="flex-row">
 
           <li className="mx-2">
-            <a href="#about" className="navcolor" onClick={() => setContactSelected(false)}>About Me</a>
+            <a href="#about" onClick={() => setContactSelected(false)}>About Me</a>
           </li>
 
           <li className="mx-2">
-            <a href="#contact" className="navcolor" onClick={() => setContactSelected(true)}>Contact</a>
+            <a href="#contact" onClick={() => setContactSelected(true)}>Contact</a>
           </li>
 
           <li className="mx-2">
-            <a href="#project" className="navcolor" onClick={() => setContactSelected(false)}>Projects</a>
+            <a href="#portfolio" onClick={() => setContactSelected(false)}>Portfolio</a>
           </li>
 
         </ul>

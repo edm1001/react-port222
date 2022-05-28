@@ -3,14 +3,15 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 function App() {
   const [pages] = useState([
     { name : 'About' },
     { name: 'Projects' },
-    { name: 'Contact' }
+    { name: 'Contact' },
+    {name: 'Resume'}
 ]);
 const [currentPage, setCurrentPage] = useState(pages[0]);
 
@@ -28,12 +29,11 @@ useEffect(() => {
             />
             <main>
                 {currentPage.name === 'About' && <About />}
-                {currentPage.name === 'Project' && <Project />}
+                {currentPage.name === 'Portfolio' && <Portfolio />}
                 {currentPage.name === 'Resume' && <Resume />}
                 {currentPage.name === 'Contact' && <Contact />}
-                {/* <About></About>
-                <Project></Project> */}
-                
+             <Portfolio/>
+             
             </main>
             <Footer />
         </div>
